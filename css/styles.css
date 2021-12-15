@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ font-family:montserrat;
+}
+
+h3{
+	font-size:20px;
+	font-weight:600;
+	}
+	
+a{
+	text-decoration:none;
+	cursor:pointer;
+}
+
+blockquote{
+  text-align:center;
+	  font-size:14px;
+	  font-style:italic;
+
+}
+
+.name{
+	
+	color:#3d3d3d;
+	font-size:28px;
+	 
+}
+
+.name2{
+
+	font-weight:400;
+	
+}
+
+.skills{
+	 background:#0DB8A8;
+	}
+.hobbies{
+	 background:#E1E1E1;
+	}	
+
+.workExperience{
+	width:92%;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.education{
+text-align:center;
+	
+}
+
+.nameSkill{
+	
+	color:white;
+	 text-shadow: 2px 2px 4px #666;
+}
+
+.subtitle{
+  color:#FFF;
+  }	
+  
+  .subtitle2{
+  color:#0DB8A8;
+  }	
+  
+
+  .linkPort{
+	 padding: 12px 21px;
+	  background:#0DB8A8;
+	  border-radius:7px;
+	  text-align:center;
+	  color:white;
+	  
+	  }
+	  
+	.linkPort:hover {
+  background-color:#008484;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  color:white;
+  
+}
+
+.myPhoto{
+	  border-radius: 8px;
+	   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.19);
+  }
+ 
+ .odd{
+  background-color: #0DB8A8;
+  color:white;
+  width:20%;
+  text-align:center;
+ }
+ 
+ .odd a{
+	  text-decoration:none;
+	  color:white;
+ }
+ 
+
+ .even{
+	   background-color:#CCC;
+	   color:#333;
+	   width:20%;
+	   text-align:center;
+ }
+ 
+  .even a{
+	  text-decoration:none;
+	  color:#333;
+ }
+ 
+ #allComplete{
+	 width:85%;
+	text-align:left;
+	margin-left:auto;
+	margin-right:auto;
+	background:white;
+	border-radius:10px;
+	box-shadow:6px 6px 3px #aaaaaa;
+ }
+ 
+ .headerPort{
+ margin:0;
+ padding:0;
+ height:120px;
+ width:100%;
+ background-color:#0DB8A8!important;
+ }

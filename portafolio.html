@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="icon" type="image/png" href="icon.png" />
+<link rel="stylesheet" href="css/styles.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<style>
+ .headerPort{
+ height:110px;
+ width:100%;
+ background-color:#0DB8A8;
+ color:white;
+ font-weight:400;
+ text-align:center;
+ padding-top:5px;
+ /* margin-top:-17px; */
+
+ }
+ 
+ .footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+  
+  font-family: montserrat;
+	height: 45px;
+   text-align: center;
+	color: white;
+ background-color:#009595;
+}
+ 
+ body{ 
+ font-family:montserrat;
+  margin:0;
+ padding:0;
+
+}
+
+#espacio{
+	background:#E1E1E1;
+	height:auto;
+
+
+}
+
+.topics{
+	text-align:center;
+}
+ .titleTopic{
+	 display:inline-block;
+	 margin-left:5%;
+	 margin-right:5%;
+	 font-weight:600;
+	 padding-top:10px;
+	 
+ }
+ 
+ .description{
+	font-size:14px;
+	padding-top:12px;
+	font-weight:400;
+	
+}
+</style>
+
+<script src="js/jquery-1.12.4.js"></script>
+ 
+
+
+<script>
+	
+function Pantalla(x){
+		
+		if (x==1){$( "#espacio" ).load("web.html")};
+	    if (x==2){$( "#espacio" ).load("gob.html")};
+	    if (x==3){$( "#espacio" ).load("graphic.html")};
+	 
+		
+	
+		}
+	</script>
+</script>
+</head>
+
+<body>
+
+<div class="headerPort"><br />
+<p>These are some examples of my work, include web design and graphic design to realize banners, posts, icons and more.</p>
+</div>
+
+<div class="topics">
+<div class="titleTopic"><a onClick="Pantalla(1)">Front End Design</a></div>
+<div class="titleTopic"><a onClick="Pantalla(2)">Internal Aplications</a></div>
+<div class="titleTopic"><a onClick="Pantalla(3)">Graphic Design</a></div>
+</div>
+
+
+<div id="espacio">
+<div align="center">
+<p class="description">Design on WordPress for METCO site, this example belongs to the page "About us"</p><hr />
+<img src="conocenos.jpg" width="843" height="2279" />
+
+</div>
+
+</div>
+
+<div class="footer">
+           <p style="padding-top:5px">Last update December 12th, 2021</p>
+       </div>
+
+
+</body>
+</html>
